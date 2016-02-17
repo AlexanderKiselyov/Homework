@@ -1,6 +1,0 @@
-c:\users\admin\documents\visual studio 2015\Projects\д.з. 1_2\д.з. 1_2\bin\Debug\д.з. 1_2.exe.config
-c:\users\admin\documents\visual studio 2015\Projects\д.з. 1_2\д.з. 1_2\bin\Debug\д.з. 1_2.exe
-c:\users\admin\documents\visual studio 2015\Projects\д.з. 1_2\д.з. 1_2\bin\Debug\д.з. 1_2.pdb
-c:\users\admin\documents\visual studio 2015\Projects\д.з. 1_2\д.з. 1_2\obj\Debug\д.з. 1_2.exe
-c:\users\admin\documents\visual studio 2015\Projects\д.з. 1_2\д.з. 1_2\obj\Debug\д.з. 1_2.pdb
-C:\Users\Admin\Documents\Visual Studio 2015\Projects\д.з. 1_2\д.з. 1_2\obj\Debug\д.з. 1_2.csprojResolveAssemblyReference.cache
