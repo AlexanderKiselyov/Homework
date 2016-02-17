@@ -1,0 +1,6 @@
+c:\users\admin\documents\visual studio 2015\Projects\д.з. 1_3\д.з. 1_3\bin\Debug\д.з. 1_3.exe.config
+c:\users\admin\documents\visual studio 2015\Projects\д.з. 1_3\д.з. 1_3\bin\Debug\д.з. 1_3.exe
+c:\users\admin\documents\visual studio 2015\Projects\д.з. 1_3\д.з. 1_3\bin\Debug\д.з. 1_3.pdb
+c:\users\admin\documents\visual studio 2015\Projects\д.з. 1_3\д.з. 1_3\obj\Debug\д.з. 1_3.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2015\Projects\д.з. 1_3\д.з. 1_3\obj\Debug\д.з. 1_3.exe
+c:\users\admin\documents\visual studio 2015\Projects\д.з. 1_3\д.з. 1_3\obj\Debug\д.з. 1_3.pdb
