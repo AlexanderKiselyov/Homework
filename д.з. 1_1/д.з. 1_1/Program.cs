@@ -15,8 +15,8 @@ namespace д.з._1_1
 	
 	static void Main(string[] args)
         {
-        	Console.WriteLine ("Write number: ");
-		int n = int.Parse (Console.ReadLine ());
+        	Console.WriteLine("Write number: ");
+		int n = int.Parse(Console.ReadLine ());
 		int result = 1;
 		result = Factorial(result, n);
 		Console.WriteLine("The result is: ");
