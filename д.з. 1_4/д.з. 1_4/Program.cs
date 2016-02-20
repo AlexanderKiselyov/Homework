@@ -14,64 +14,64 @@ namespace д.з._1_4
             {
                 for (int j =0 ; j < n; j++)
                 {
-					array[i , j] = int.Parse (Console.ReadLine());
+			array[i , j] = int.Parse(Console.ReadLine());
                 }
             }
-			int[] newArray = new int[n * n];
-			int count = 1;
-			int str = (n + 1) / 2 - 1;
-			int column = (n + 1) / 2 - 1;
-			int boundary = 1;
-			Console.WriteLine ("New array:");
-			Console.WriteLine (array[(n + 1) / 2 - 1 , (n + 1) / 2 - 1]);
-			if (n != 1)
+	    int[] newArray = new int[n * n];
+	    int count = 1;
+	    int str = (n + 1) / 2 - 1;
+	    int column = (n + 1) / 2 - 1;
+	    int boundary = 1;
+	    Console.WriteLine("New array:");
+	    Console.WriteLine(array[(n + 1) / 2 - 1 , (n + 1) / 2 - 1]);
+	    if (n != 1)
+	    {
+	    	while (count < n * n)
+	    	{
+	    		for (int i = 0; i < boundary; i++)
 			{
-				while (count < n * n)
+				if (count >= n * n)
 				{
-					for (int i = 0; i < boundary; i++)
-					{
-						if (count >= n * n)
-						{
-							break;
-						}
-						column++;
-						Console.WriteLine (array[str , column]);
-						count++;
-					}
-					for (int i = 0; i < boundary; i++)
-					{
-						if (count >= n * n)
-						{
-							break;
-						}
-						str++;
-						Console.WriteLine (array[str , column]);
-						count++;
-					}
-					boundary++;
-					for (int i = 0; i < boundary; i++)
-					{
-						if (count >= n * n)
-						{
-							break;
-						}
-						column--;
-						Console.WriteLine (array[str , column]);
-						count++;
-					}
-					for (int i = 0; i < boundary; i++)
-					{
-						if (count >= n * n)
-						{
-							break;
-						}
-						str--;
-						Console.WriteLine (array[str , column]);
-						count++;
-					}
-					boundary++;
+					break;
 				}
+				column++;
+				Console.WriteLine(array[str, column]);
+				count++;
 			}
+			for (int i = 0; i < boundary; i++)
+			{
+				if (count >= n * n)
+				{
+					break;
+				}
+				str++;
+				Console.WriteLine(array[str, column]);
+				count++;
+			}
+			boundary++;
+			for (int i = 0; i < boundary; i++)
+			{
+				if (count >= n * n)
+				{
+					break;
+				}
+				column--;
+				Console.WriteLine(array[str, column]);
+				count++;
+			}
+			for (int i = 0; i < boundary; i++)
+			{
+				if (count >= n * n)
+				{
+					break;
+				}
+				str--;
+				Console.WriteLine(array[str, column]);
+				count++;
+			}
+			boundary++;
+		}
+	    }
         }
     }
 }
