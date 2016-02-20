@@ -4,7 +4,24 @@ namespace д.з._1_3
 {
 	class Program
 	{
-		const int n = 10;
+		public const int n = 10;
+		
+		static void BubbleSort(char[] mass, int length)
+		{
+			for (int i = 0; i < length; i++)
+			{
+				for (int j = length - 1; j > i; j--)
+				{
+					if (mass[j - 1] > mass[j])
+					{
+						char current = mass[j - 1];
+						mass[j - 1] = mass[j];
+						mass[j] = current;
+					}
+				}
+			}
+		}
+		
 		static void Main (string[] args)
 		{
 			char[] mass = new char[n];
@@ -14,18 +31,7 @@ namespace д.з._1_3
 				mass[i] = char.Parse (Console.ReadLine ());
 			}
 			int length = mass.Length;
-			for (int i = 0; i < length; i++)
-			{
-				for (int j = length - 1; j > i; j--)
-				{
-					if (mass[j - 1] > mass[j])
-					{
-						char current = mass[j - 1]; // bubble sort
-						mass[j - 1] = mass[j];
-						mass[j] = current;
-					}
-				}
-			}
+			BubbleSort(mass, length);
 			Console.WriteLine ("New array:");
 			for (int i = 0; i < length; i++)
 			{
