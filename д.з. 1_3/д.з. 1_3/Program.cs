@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace д.з._1_3
 {
@@ -6,7 +6,7 @@ namespace д.з._1_3
 	{
 		public const int n = 10;
 		
-		static void BubbleSort(char[] mass, int length)
+		private static void BubbleSort(char[] mass, int length)
 		{
 			for (int i = 0; i < length; i++)
 			{
@@ -22,7 +22,7 @@ namespace д.з._1_3
 			}
 		}
 		
-		static void Main (string[] args)
+		public static void Main (string[] args)
 		{
 			char[] mass = new char[n];
 			Console.WriteLine("Enter array of " + n + " elements:");
