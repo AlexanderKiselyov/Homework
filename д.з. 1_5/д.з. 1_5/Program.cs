@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 
 namespace д.з._1_5
 {
 	class Program
 	{
-		static void MatrixBubbleSort(int[,] array, int m, int n)
+		private static void MatrixBubbleSort(int[,] array)
 		{
 			for (int i = 0; i < m; i++)
 			{
@@ -23,7 +23,7 @@ namespace д.з._1_5
 			}
 		}
 		
-		static void Main (string[] args)
+		public static void Main (string[] args)
 		{
 			Console.WriteLine("Write number of string and columns:");
 			int n = int.Parse(Console.ReadLine ());
@@ -37,7 +37,7 @@ namespace д.з._1_5
 					array[i, j] = int.Parse(Console.ReadLine ());
 				}
 			}
-			MatrixBubbleSort(array, m, n);
+			MatrixBubbleSort(array);
 			Console.WriteLine("New array:");
 			for (int i = 0; i < n; i++)
 			{
