@@ -4,8 +4,9 @@ namespace д.з._1_1
 {
     class Program
     {
-	static int Factorial(int result, int n)
+	private static int Factorial(int n)
 	{
+		int result = 1;
         	for (int i = 1; i <= n; i++)
         	{
             		result *= i;
@@ -13,14 +14,12 @@ namespace д.з._1_1
 		return result;
 	}
 	
-	static void Main(string[] args)
+	public static void Main(string[] args)
         {
-        	Console.WriteLine("Write number: ");
+        	Console.WriteLine("Write number:");
 		int n = int.Parse(Console.ReadLine ());
-		int result = 1;
-		result = Factorial(result, n);
 		Console.WriteLine("The result is: ");
-        	Console.WriteLine(result);
+        	Console.WriteLine(Factorial(n));
         }
     }
 }
