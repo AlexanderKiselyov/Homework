@@ -4,7 +4,7 @@ namespace д.з._1_5
 {
 	class Program
 	{
-		private static void MatrixBubbleSort(int[,] array)
+		private static void MatrixBubbleSort(int[,] array)  // sorts elements of the matrix
 		{
 			for (int i = 0; i < m; i++)
 			{
