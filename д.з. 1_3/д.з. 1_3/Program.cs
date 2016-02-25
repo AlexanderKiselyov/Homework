@@ -6,7 +6,7 @@ namespace д.з._1_3
 	{
 		public const int n = 10;
 		
-		private static void BubbleSort(char[] mass, int length)
+		private static void BubbleSort(char[] mass, int length) // sorts elements of the array
 		{
 			for (int i = 0; i < length; i++)
 			{
