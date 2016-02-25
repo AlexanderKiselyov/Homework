@@ -4,7 +4,7 @@ namespace д.з._1_4
 {
     class Program
     {
-    	private static void CrawlingSnake(int[,] array, int n)
+    	private static void CrawlingSnake(int[,] array, int n) // outputs elements of the matrix in a circle
     	{
     		int[] newArray = new int[n * n];
     		int count = 1;
