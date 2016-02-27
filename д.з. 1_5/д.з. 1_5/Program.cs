@@ -8,6 +8,8 @@ namespace д.з._1_5
 		/// sorts elements of the matrix
 		private static void MatrixBubbleSort(int[,] array)
 		{
+			int n = array.GetLength(0);
+			int m = array.GetLength(1);
 			for (int i = 0; i < m; i++)
 			{
 				for (int j = m - 1; j > i; j--)
