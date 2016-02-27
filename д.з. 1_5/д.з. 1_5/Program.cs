@@ -2,9 +2,11 @@ using System;
 
 namespace д.з._1_5
 {
+	/// sorts elements of the matrix
 	class Program
 	{
-		private static void MatrixBubbleSort(int[,] array)  // sorts elements of the matrix
+		/// sorts elements of the matrix
+		private static void MatrixBubbleSort(int[,] array)
 		{
 			for (int i = 0; i < m; i++)
 			{
