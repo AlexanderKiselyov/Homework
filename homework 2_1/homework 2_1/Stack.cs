@@ -1,15 +1,18 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 
+/// pushes elements into the stack and pull them out
 public class Stack
 {
 	private List<int> list = new List<int>();
-
-	public void Push(int number) // adds elements to the stack
+	
+	/// adds elements to the stack
+	public void Push(int number)
 	{
 		list.Add(number);
 	}
-
-	public int Pop() // takes elements off the stack and shows them
+	
+	/// takes elements off the stack and shows them
+	public int Pop()
 	{
 		if (list.Count == 0)
 		{
