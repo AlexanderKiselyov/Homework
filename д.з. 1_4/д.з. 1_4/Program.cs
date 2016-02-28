@@ -14,7 +14,7 @@ namespace д.з._1_4
     		int column = (n + 1) / 2 - 1;
     		int boundary = 1;
     		Console.WriteLine ("New array:");
-    		Console.WriteLine (n + 1) / 2 - 1, (n + 1) / 2 - 1]);
+    		Console.WriteLine (array[(n + 1) / 2 - 1, (n + 1) / 2 - 1]);
     		if (n != 1)
     		{
     			while (count < n * n)
