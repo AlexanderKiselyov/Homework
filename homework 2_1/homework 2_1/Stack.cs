@@ -16,7 +16,7 @@ namespace StackProgram
 		/// takes elements off the stack and shows them
 		public string Pop()
 		{
-			if (IsEmpty == true)
+			if (IsEmpty() == true)
 			{
 				return "No elements.";
 			}
