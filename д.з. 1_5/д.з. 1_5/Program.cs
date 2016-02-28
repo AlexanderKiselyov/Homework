@@ -2,7 +2,7 @@ using System;
 
 namespace д.з._1_5
 {
-	/// sorts elements of the matrix
+	/// matrix sort
 	class Program
 	{
 		/// sorts elements of the matrix
