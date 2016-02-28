@@ -1,25 +1,38 @@
 using System.Collections.Generic;
 
-/// pushes elements into the stack and pull them out
-public class Stack
+namespace StackProgram
 {
-	private List<int> list = new List<int>();
-	
-	/// adds elements to the stack
-	public void Push(int number)
+	/// pushes elements into the stack and pull them out
+	public class Stack
 	{
-		list.Add(number);
-	}
+		private List<int> list = new List<int>();
 	
-	/// takes elements off the stack and shows them
-	public int Pop()
-	{
-		if (list.Count == 0)
+		/// adds elements to the stack
+		public void Push(int number)
 		{
-			return 0;
+			list.Add(number);
 		}
-		int result = list[list.Count - 1];
-		list.RemoveAt(list.Count - 1);
-		return result;
+	
+		/// takes elements off the stack and shows them
+		public string Pop()
+		{
+			if (IsEmpty == true)
+			{
+				return "No elements.";
+			}
+			int result = list[list.Count - 1];
+			list.RemoveAt(list.Count - 1);
+			return result.ToString();
+		}
+	
+		/// checks if the array is empty
+		private bool IsEmpty()
+		{
+			if (list.Count == 0)
+			{
+				return true;
+			}
+			return false;
+		}
 	}
 }
