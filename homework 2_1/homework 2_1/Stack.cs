@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace StackProgram
 {
-	/// pushes elements into the stack and pull them out
+	/// pushes elements into the stack, checks if it is not empty and pull elements out
 	public class Stack
 	{
 		private List<int> list = new List<int>();
