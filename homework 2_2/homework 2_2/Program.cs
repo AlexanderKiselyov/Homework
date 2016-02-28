@@ -36,11 +36,8 @@ namespace List
 
 		public void DeleteElement(int value) // takes elements off the list and shows them
 		{
-			if (IsInTheList(value) == true)
-			{
-				list.Remove(value);
-				number--;
-			}
+			list.Remove(value);
+			number--;
 		}
 
 		public void Show() // shows all the elements from the list
