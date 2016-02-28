@@ -14,7 +14,7 @@ namespace д.з._1_4
     		int column = (n + 1) / 2 - 1;
     		int boundary = 1;
     		Console.WriteLine ("New array:");
-    		Console.WriteLine (n + 1) / 2 - 1 , (n + 1) / 2 - 1]);
+    		Console.WriteLine (n + 1) / 2 - 1, (n + 1) / 2 - 1]);
     		if (n != 1)
     		{
     			while (count < n * n)
@@ -26,7 +26,7 @@ namespace д.з._1_4
     						break;
 					}
 					column++;
-					Console.WriteLine(array[str , column]);
+					Console.WriteLine(array[str, column]);
 					count++;
 				}
 				for (int i = 0; i < boundary; i++)
@@ -36,7 +36,7 @@ namespace д.з._1_4
 						break;
 					}
 					str++;
-					Console.WriteLine(array[str , column]);
+					Console.WriteLine(array[str, column]);
 					count++;
 				}
 				boundary++;
@@ -47,7 +47,7 @@ namespace д.з._1_4
 						break;
 					}
 					column--;
-					Console.WriteLine(array[str , column]);
+					Console.WriteLine(array[str, column]);
 					count++;
 				}
 				for (int i = 0; i < boundary; i++)
@@ -57,12 +57,12 @@ namespace д.з._1_4
 						break;
 					}
 					str--;
-					Console.WriteLine(array[str , column]);
+					Console.WriteLine(array[str, column]);
 					count++;
 				}
 				boundary++;
 			}
-		}
+    		}
     	}
     	
         public static void Main(string[] args)
@@ -75,7 +75,7 @@ namespace д.з._1_4
             {
                 for (int j =0 ; j < n; j++)
                 {
-			array[i , j] = int.Parse(Console.ReadLine());
+			array[i, j] = int.Parse(Console.ReadLine());
                 }
             }
             CrawlingSnake(array);
