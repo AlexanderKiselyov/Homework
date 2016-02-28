@@ -14,6 +14,7 @@ namespace StackProgram
 			Console.WriteLine(stack.Pop());
 			Console.WriteLine(stack.Pop());
 			Console.WriteLine(stack.Pop());
+			Console.WriteLine(stack.Pop());
 		}
 	}
 }
