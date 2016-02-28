@@ -2,7 +2,7 @@ using System;
 
 namespace д.з._1_4
 {
-	/// outputs elements of the matrix in a circle
+	/// elements of the matrix in a circle
     class Program
     {
     	/// outputs elements of the matrix in a circle
