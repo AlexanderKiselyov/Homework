@@ -2,6 +2,7 @@ using System;
 
 namespace StackProgram
 {
+	/// test of the stack
 	class Program
 	{
 		static void Main(string[] args)
