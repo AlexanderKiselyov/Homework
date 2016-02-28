@@ -30,15 +30,15 @@ namespace д.з._1_5
 		public static void Main (string[] args)
 		{
 			Console.WriteLine("Write number of string and columns:");
-			int n = int.Parse(Console.ReadLine ());
-			int m = int.Parse(Console.ReadLine ());
-			int[,] array = new int[n , m];
+			int n = int.Parse(Console.ReadLine());
+			int m = int.Parse(Console.ReadLine());
+			int[,] array = new int[n, m];
 			Console.WriteLine("Enter array of " + n * m + " elements:");
 			for (int i = 0; i < n; i++)
 			{
 				for (int j = 0; j < m; j++)
 				{
-					array[i, j] = int.Parse(Console.ReadLine ());
+					array[i, j] = int.Parse(Console.ReadLine());
 				}
 			}
 			MatrixBubbleSort(array);
@@ -47,9 +47,10 @@ namespace д.з._1_5
 			{
 				for (int j = 0; j < m; j++)
 				{
-					Console.WriteLine(array[i, j]);
+					Console.Write(array[i, j] + " ");
 				}
 			}
+			Console.WriteLine();
 		}
 	}
 }
