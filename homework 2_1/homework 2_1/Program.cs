@@ -1,6 +1,6 @@
-﻿using System;
+using System;
 
-namespace stack
+namespace StackProgram
 {
 	class Program
 	{
