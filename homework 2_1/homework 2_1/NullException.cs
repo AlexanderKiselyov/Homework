@@ -2,8 +2,7 @@ using System;
 
 namespace StackProgram
 {
-	/// Signals that one tried to get value from null reference
-	/// while working with stack.
+	/// Checks if the Stack is empty and shows message.
 	[Serializable]
 	public class StackNullException : Exception
 	{
