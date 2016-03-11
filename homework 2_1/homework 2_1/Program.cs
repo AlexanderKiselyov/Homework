@@ -14,7 +14,14 @@ namespace StackProgram
 			Console.WriteLine(stack.Pop());
 			Console.WriteLine(stack.Pop());
 			Console.WriteLine(stack.Pop());
-			Console.WriteLine(stack.Pop());
+			try
+			{
+				stack.Pop();
+			}
+			catch (StackNullException e)
+			{
+				Console.WriteLine("{0}", e.Message);
+			}
 		}
 	}
 }
