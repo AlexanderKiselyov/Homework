@@ -2,37 +2,31 @@ using System.Collections.Generic;
 
 namespace StackProgram
 {
-	/// pushes elements into the stack, checks if it is not empty and pull elements out
 	public class Stack
 	{
+		private int count = -1;
 		private List<int> list = new List<int>();
-	
-		/// adds elements to the stack
-		public void Push(int number)
+
+		public void Push(int number) // adds elements to the stack
 		{
 			list.Add(number);
+			count++;
 		}
-	
-		/// takes elements off the stack and shows them
-		public string Pop()
+
+		public int Pop() // takes elements off the stack and shows them
 		{
-			if (IsEmpty() == true)
+			if (count == -1)
 			{
-				return "No elements.";
+				throw new StackNullException("You are trying to pop from an empty stack.");
 			}
-			int result = list[list.Count - 1];
-			list.RemoveAt(list.Count - 1);
-			return result.ToString();
+			int result = list[count];
+			count--;
+			return result;
 		}
-	
-		/// checks if the array is empty
-		private bool IsEmpty()
+
+		public bool IsEmpty()
 		{
-			if (list.Count == 0)
-			{
-				return true;
-			}
-			return false;
+			return list.Count == 0;
 		}
 	}
 }
