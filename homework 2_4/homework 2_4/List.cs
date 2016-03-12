@@ -1,7 +1,8 @@
-﻿using System;
+using System;
 
 namespace Calculator
 {
+	/// List can add elements, delete them, show them and check if the element is in it.
 	public class List : CalculatorInterface
 	{
 		private ListElement list = new ListElement();
