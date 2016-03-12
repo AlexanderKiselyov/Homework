@@ -1,7 +1,8 @@
-﻿using System;
+using System;
 
 namespace List
 {
+	/// List can add elements, delete them, show them and check if the element is in it.
 	class List
 	{
 		private ListElement list = new ListElement();
@@ -41,7 +42,7 @@ namespace List
 		}
 
 		/// checks if the elements is in the list
-		public bool Search(int value)
+		public bool IfExists(int value)
 		{
 			list.SetIteratorFirst();
 			while (!list.IfIteratorNull())
