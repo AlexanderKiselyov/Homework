@@ -2,7 +2,7 @@
 {
 	class ListElement
 	{
-		private static int N = 100;
+		private const int N = 100;
 		private int[] list = new int[N];
 		private int count = 0;
 		private int pointer = 0;
