@@ -2,6 +2,7 @@
 
 namespace NewHashTable
 {
+	/// List can add elements, delete them, show them and check if the element is in it.
 	class List
 	{
 		private ArrayList list = new ArrayList();
