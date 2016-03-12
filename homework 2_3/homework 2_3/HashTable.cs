@@ -1,7 +1,9 @@
-﻿using System;
+using System;
 
 namespace NewHashTable
 {
+	/// Class that can count hash function of the added element and add it to the hashtable. Also can delete elements,
+ +	// show them and search for the elements.
 	public class HashTable
 	{
 		private const int hashConstant = 5;
