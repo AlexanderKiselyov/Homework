@@ -1,10 +1,12 @@
-﻿using System;
+using System;
 
 namespace HashTable
 {
+	/// Class that can count hash function of the added element and add it to the hashtable. Also can delete elements,
+	// show them and search for the elements.
 	class HashTable
 	{
-		private static int hashConstant = 5;
+		private const int hashConstant = 5;
 
 		private List[] list;
 
