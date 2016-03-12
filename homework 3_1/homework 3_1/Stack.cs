@@ -2,6 +2,7 @@
 
 namespace MyStack
 {
+	/// Stack can add elements, delete them and check if it is empty.
 	public class Stack
 	{
 		private int count = -1;
