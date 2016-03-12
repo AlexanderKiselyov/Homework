@@ -5,7 +5,7 @@ namespace List
 	/// List can add elements, delete them, show them and check if the element is in it.
 	class List
 	{
-		private ListElement list = new ListElement();
+		private ArrayList list = new ArrayList();
 
 		/// adds elements to the list
 		public void Add(int value)
