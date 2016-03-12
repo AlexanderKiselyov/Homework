@@ -1,6 +1,6 @@
-﻿namespace List
+namespace List
 {
-	class ListElement
+	class ArrayList
 	{
 		private const int N = 100;
 		private int[] list = new int[N];
