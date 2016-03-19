@@ -12,7 +12,7 @@ namespace NewHashTable.Tests
 		public void Initialization1()
 		{
 			hashTable1 = new HashTable(new FirstHash());
-			hashTable2 = new HashTable(new FirstHash());
+			hashTable2 = new HashTable(new SecondHash());
 		}
 
 		[TestMethod]
